@@ -1,0 +1,822 @@
+{
+    "dois-primeiro-trampo-teste-s3bucket-propriedades": {
+        "get_bucket_accelerate_configuration": {
+            "ResponseMetadata": {
+                "RequestId": "N3QYTNVDWTGQ10VV",
+                "HostId": "3Gdwp30A+gjNpdiMAKGXfDxcBhg23A+oKYRTprMMHYCdjlgQPHUjGACfqTt9+wmkOBzH6w0gPA3APHiM0qbTnA==",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "3Gdwp30A+gjNpdiMAKGXfDxcBhg23A+oKYRTprMMHYCdjlgQPHUjGACfqTt9+wmkOBzH6w0gPA3APHiM0qbTnA==",
+                    "x-amz-request-id": "N3QYTNVDWTGQ10VV",
+                    "date": "Tue, 16 Apr 2024 23:12:06 GMT",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 1
+            }
+        },
+        "get_bucket_acl": {
+            "ResponseMetadata": {
+                "RequestId": "FG6R2WNYCVC9K55F",
+                "HostId": "lq/8aRjC0zIgWbgD34vPbF1DNpNWhXSGcIyPim4jVFDEnZfpWAIzyCL0VKyK6qI8COTYXNgLxPE/dqm6fUlqhQ==",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "lq/8aRjC0zIgWbgD34vPbF1DNpNWhXSGcIyPim4jVFDEnZfpWAIzyCL0VKyK6qI8COTYXNgLxPE/dqm6fUlqhQ==",
+                    "x-amz-request-id": "FG6R2WNYCVC9K55F",
+                    "date": "Tue, 16 Apr 2024 23:12:07 GMT",
+                    "content-type": "application/xml",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            },
+            "Owner": {
+                "DisplayName": "heitor.software",
+                "ID": "87e45754cca59bd749da22c275852623463cad6fd7be5027fae2da23768e73d4"
+            },
+            "Grants": [
+                {
+                    "Grantee": {
+                        "DisplayName": "heitor.software",
+                        "ID": "87e45754cca59bd749da22c275852623463cad6fd7be5027fae2da23768e73d4",
+                        "Type": "CanonicalUser"
+                    },
+                    "Permission": "FULL_CONTROL"
+                }
+            ]
+        },
+        "get_bucket_analytics_configuration": {
+            "Error": "Parameter validation failed:\nMissing required parameter in input: \"Id\""
+        },
+        "get_bucket_cors": {
+            "Error": "An error occurred (NoSuchCORSConfiguration) when calling the GetBucketCors operation: The CORS configuration does not exist"
+        },
+        "get_bucket_encryption": {
+            "ResponseMetadata": {
+                "RequestId": "FG6Z1EPC639V808F",
+                "HostId": "UdP0VVC+X0qhjaF9Zi9BexXmAKxVhfc7uCL84Mzc3G7OrW2IdiIiuKsRHjDn6+aF2vs+gjvc4V2HIEOaajqEfg==",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "UdP0VVC+X0qhjaF9Zi9BexXmAKxVhfc7uCL84Mzc3G7OrW2IdiIiuKsRHjDn6+aF2vs+gjvc4V2HIEOaajqEfg==",
+                    "x-amz-request-id": "FG6Z1EPC639V808F",
+                    "date": "Tue, 16 Apr 2024 23:12:07 GMT",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            },
+            "ServerSideEncryptionConfiguration": {
+                "Rules": [
+                    {
+                        "ApplyServerSideEncryptionByDefault": {
+                            "SSEAlgorithm": "AES256"
+                        },
+                        "BucketKeyEnabled": false
+                    }
+                ]
+            }
+        },
+        "get_bucket_intelligent-tiering_configuration": {
+            "Error": "'S3' object has no attribute 'get_bucket_intelligent-tiering_configuration'"
+        },
+        "get_bucket_inventory_configuration": {
+            "Error": "Parameter validation failed:\nMissing required parameter in input: \"Id\""
+        },
+        "get_bucket_lifecycle_configuration": {
+            "Error": "An error occurred (NoSuchLifecycleConfiguration) when calling the GetBucketLifecycleConfiguration operation: The lifecycle configuration does not exist"
+        },
+        "get_bucket_location": {
+            "ResponseMetadata": {
+                "RequestId": "7HKYCSKWXN03FAPQ",
+                "HostId": "hr1+n3RGBvY8BJHMfghvslgFzO8evmlsJ8R742sV8qoHePIGYioGDy2AgHHrF4GxsKSdgRyI5Ww=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "hr1+n3RGBvY8BJHMfghvslgFzO8evmlsJ8R742sV8qoHePIGYioGDy2AgHHrF4GxsKSdgRyI5Ww=",
+                    "x-amz-request-id": "7HKYCSKWXN03FAPQ",
+                    "date": "Tue, 16 Apr 2024 23:12:08 GMT",
+                    "content-type": "application/xml",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            },
+            "LocationConstraint": "us-west-2"
+        },
+        "get_bucket_logging": {
+            "ResponseMetadata": {
+                "RequestId": "XJ32GEESG0XSY98H",
+                "HostId": "xV+14JyHBtyLQHiGmjPCQzgnJXYT/1sCI/s6ZEO0pl6ovOk1UwJH3qBwQymmb+aIUw+7rHjyniLnJBrufGiWSQ==",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "xV+14JyHBtyLQHiGmjPCQzgnJXYT/1sCI/s6ZEO0pl6ovOk1UwJH3qBwQymmb+aIUw+7rHjyniLnJBrufGiWSQ==",
+                    "x-amz-request-id": "XJ32GEESG0XSY98H",
+                    "date": "Tue, 16 Apr 2024 23:12:09 GMT",
+                    "content-type": "application/xml",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            }
+        },
+        "get_bucket_metrics_configuration": {
+            "Error": "Parameter validation failed:\nMissing required parameter in input: \"Id\""
+        },
+        "get_bucket_notification_configuration": {
+            "ResponseMetadata": {
+                "RequestId": "XJ3DAEQVNZJB46R6",
+                "HostId": "3fG+x9PgIYvI3H2Sw/92nSTBGCmDWV6ou/z5Lj6qxeg9tsPvmDQjtfk8PBMPEuk5sDhhDe4WzPnBJoih0a74ag==",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "3fG+x9PgIYvI3H2Sw/92nSTBGCmDWV6ou/z5Lj6qxeg9tsPvmDQjtfk8PBMPEuk5sDhhDe4WzPnBJoih0a74ag==",
+                    "x-amz-request-id": "XJ3DAEQVNZJB46R6",
+                    "date": "Tue, 16 Apr 2024 23:12:09 GMT",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            }
+        },
+        "get_bucket_ownership_controls": {
+            "ResponseMetadata": {
+                "RequestId": "XJ32C0TXQQAFAYJZ",
+                "HostId": "b8RGFUsN4jZ4ge9rSVpduIYgNex4iWLXxrpyN/0bWkqxkeyfGw6PvGCB3OJMmPmTcnDPS/SEM2TyGtDi9Twgvw==",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "b8RGFUsN4jZ4ge9rSVpduIYgNex4iWLXxrpyN/0bWkqxkeyfGw6PvGCB3OJMmPmTcnDPS/SEM2TyGtDi9Twgvw==",
+                    "x-amz-request-id": "XJ32C0TXQQAFAYJZ",
+                    "date": "Tue, 16 Apr 2024 23:12:09 GMT",
+                    "server": "AmazonS3",
+                    "content-length": "193"
+                },
+                "RetryAttempts": 0
+            },
+            "OwnershipControls": {
+                "Rules": [
+                    {
+                        "ObjectOwnership": "BucketOwnerEnforced"
+                    }
+                ]
+            }
+        },
+        "get_bucket_policy": {
+            "Error": "An error occurred (NoSuchBucketPolicy) when calling the GetBucketPolicy operation: The bucket policy does not exist"
+        },
+        "get_bucket_policy_status": {
+            "Error": "An error occurred (NoSuchBucketPolicy) when calling the GetBucketPolicyStatus operation: The bucket policy does not exist"
+        },
+        "get_bucket_replication": {
+            "Error": "An error occurred (ReplicationConfigurationNotFoundError) when calling the GetBucketReplication operation: The replication configuration was not found"
+        },
+        "get_bucket_request_payment": {
+            "ResponseMetadata": {
+                "RequestId": "9J70NFMGJW2QE1DS",
+                "HostId": "jtkMy4uv84QDfQP7DO42qFvVJl/BXZd+OHpZN8ry39v6yi4vsaAhYciGlxZ8zoAphvtCdMVZOGse0R79Ax/Ypg==",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "jtkMy4uv84QDfQP7DO42qFvVJl/BXZd+OHpZN8ry39v6yi4vsaAhYciGlxZ8zoAphvtCdMVZOGse0R79Ax/Ypg==",
+                    "x-amz-request-id": "9J70NFMGJW2QE1DS",
+                    "date": "Tue, 16 Apr 2024 23:12:10 GMT",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            },
+            "Payer": "BucketOwner"
+        },
+        "get_bucket_tagging": {
+            "Error": "An error occurred (NoSuchTagSet) when calling the GetBucketTagging operation: The TagSet does not exist"
+        },
+        "get_bucket_versioning": {
+            "ResponseMetadata": {
+                "RequestId": "VBJQB41EA1NT9E4S",
+                "HostId": "VArcZqe1NNK4yuXmLMwbVlwndFau809dXuDlz+XlnSccxrvHxJ7VRdgjmAVi61mVxoRuZGNX4TxI3xTQRloSbg==",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "VArcZqe1NNK4yuXmLMwbVlwndFau809dXuDlz+XlnSccxrvHxJ7VRdgjmAVi61mVxoRuZGNX4TxI3xTQRloSbg==",
+                    "x-amz-request-id": "VBJQB41EA1NT9E4S",
+                    "date": "Tue, 16 Apr 2024 23:12:11 GMT",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            }
+        },
+        "get_bucket_website": {
+            "Error": "An error occurred (NoSuchWebsiteConfiguration) when calling the GetBucketWebsite operation: The specified bucket does not have a website configuration"
+        }
+    },
+    "quatro-primeiro-trampo-teste-s3bucket-propriedades": {
+        "get_bucket_accelerate_configuration": {
+            "ResponseMetadata": {
+                "RequestId": "7EFMKTXE5Z1CA9ZC",
+                "HostId": "7ZCBKAJFIkHis0nBRmarrk1LTXEbmAqBjyEGWBCoYZWsrjg9VnSQ6xh7UJndReqDeB/CYrIh5rU=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "7ZCBKAJFIkHis0nBRmarrk1LTXEbmAqBjyEGWBCoYZWsrjg9VnSQ6xh7UJndReqDeB/CYrIh5rU=",
+                    "x-amz-request-id": "7EFMKTXE5Z1CA9ZC",
+                    "date": "Tue, 16 Apr 2024 23:12:12 GMT",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 1
+            }
+        },
+        "get_bucket_acl": {
+            "ResponseMetadata": {
+                "RequestId": "AEM61BJKKPEKHQ2W",
+                "HostId": "uY66I54mAPj6sZb9N5y1RsfFuHKqR2i8vJSHYU7ucI5EbtiF6YIVSFpPZ0zygl688ZvfRkGdeqQ=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "uY66I54mAPj6sZb9N5y1RsfFuHKqR2i8vJSHYU7ucI5EbtiF6YIVSFpPZ0zygl688ZvfRkGdeqQ=",
+                    "x-amz-request-id": "AEM61BJKKPEKHQ2W",
+                    "date": "Tue, 16 Apr 2024 23:12:13 GMT",
+                    "content-type": "application/xml",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            },
+            "Owner": {
+                "ID": "87e45754cca59bd749da22c275852623463cad6fd7be5027fae2da23768e73d4"
+            },
+            "Grants": [
+                {
+                    "Grantee": {
+                        "ID": "87e45754cca59bd749da22c275852623463cad6fd7be5027fae2da23768e73d4",
+                        "Type": "CanonicalUser"
+                    },
+                    "Permission": "FULL_CONTROL"
+                }
+            ]
+        },
+        "get_bucket_analytics_configuration": {
+            "Error": "Parameter validation failed:\nMissing required parameter in input: \"Id\""
+        },
+        "get_bucket_cors": {
+            "Error": "An error occurred (NoSuchCORSConfiguration) when calling the GetBucketCors operation: The CORS configuration does not exist"
+        },
+        "get_bucket_encryption": {
+            "ResponseMetadata": {
+                "RequestId": "AEMEHM4VBNK8KBMB",
+                "HostId": "SmQzXTBTHDM4tqoGwZxo1tJpZYj23CTd80k2vEkVc7v0QCdlhw1O6R92VHfzzBbzG/7SkaD3tPU=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "SmQzXTBTHDM4tqoGwZxo1tJpZYj23CTd80k2vEkVc7v0QCdlhw1O6R92VHfzzBbzG/7SkaD3tPU=",
+                    "x-amz-request-id": "AEMEHM4VBNK8KBMB",
+                    "date": "Tue, 16 Apr 2024 23:12:13 GMT",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            },
+            "ServerSideEncryptionConfiguration": {
+                "Rules": [
+                    {
+                        "ApplyServerSideEncryptionByDefault": {
+                            "SSEAlgorithm": "AES256"
+                        },
+                        "BucketKeyEnabled": false
+                    }
+                ]
+            }
+        },
+        "get_bucket_intelligent-tiering_configuration": {
+            "Error": "'S3' object has no attribute 'get_bucket_intelligent-tiering_configuration'"
+        },
+        "get_bucket_inventory_configuration": {
+            "Error": "Parameter validation failed:\nMissing required parameter in input: \"Id\""
+        },
+        "get_bucket_lifecycle_configuration": {
+            "Error": "An error occurred (NoSuchLifecycleConfiguration) when calling the GetBucketLifecycleConfiguration operation: The lifecycle configuration does not exist"
+        },
+        "get_bucket_location": {
+            "ResponseMetadata": {
+                "RequestId": "4WKERY77BYMNVVB7",
+                "HostId": "cf7I2UfI4DbRIsWYkxFn4MfH5M3IfxwbMlbZ5YeaB7WFyCJbDGgZCJjdAt1JM0h9DhqCr5NxPK0=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "cf7I2UfI4DbRIsWYkxFn4MfH5M3IfxwbMlbZ5YeaB7WFyCJbDGgZCJjdAt1JM0h9DhqCr5NxPK0=",
+                    "x-amz-request-id": "4WKERY77BYMNVVB7",
+                    "date": "Tue, 16 Apr 2024 23:12:14 GMT",
+                    "content-type": "application/xml",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            },
+            "LocationConstraint": "ap-south-1"
+        },
+        "get_bucket_logging": {
+            "ResponseMetadata": {
+                "RequestId": "QY09HCGS723V7DNG",
+                "HostId": "7XUrNoVB1J10MkxuDK5S6kejPukOFvxFidhphNF8iguijHO23vG4n3vCAdZ5ARPrraWYp59R/xE=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "7XUrNoVB1J10MkxuDK5S6kejPukOFvxFidhphNF8iguijHO23vG4n3vCAdZ5ARPrraWYp59R/xE=",
+                    "x-amz-request-id": "QY09HCGS723V7DNG",
+                    "date": "Tue, 16 Apr 2024 23:12:15 GMT",
+                    "content-type": "application/xml",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            }
+        },
+        "get_bucket_metrics_configuration": {
+            "Error": "Parameter validation failed:\nMissing required parameter in input: \"Id\""
+        },
+        "get_bucket_notification_configuration": {
+            "ResponseMetadata": {
+                "RequestId": "QY0FK3E8WH34SJX6",
+                "HostId": "TzzE8aPdMfAA8/RIe9J6uT+VMOpLeVseYDos8DQqvigw7cptH8RxR1Ks/c4oD+hTR2AkaEqt4D8=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "TzzE8aPdMfAA8/RIe9J6uT+VMOpLeVseYDos8DQqvigw7cptH8RxR1Ks/c4oD+hTR2AkaEqt4D8=",
+                    "x-amz-request-id": "QY0FK3E8WH34SJX6",
+                    "date": "Tue, 16 Apr 2024 23:12:15 GMT",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            }
+        },
+        "get_bucket_ownership_controls": {
+            "ResponseMetadata": {
+                "RequestId": "QY0A4MX7E24E7NH4",
+                "HostId": "fpRK+vdvP5HQxOj7E6CmB+odkHkIJLkE9vaeZoNMuqKvEomBEEB1diyKw7KRHR6IkvdQaq9y9BI=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "fpRK+vdvP5HQxOj7E6CmB+odkHkIJLkE9vaeZoNMuqKvEomBEEB1diyKw7KRHR6IkvdQaq9y9BI=",
+                    "x-amz-request-id": "QY0A4MX7E24E7NH4",
+                    "date": "Tue, 16 Apr 2024 23:12:15 GMT",
+                    "server": "AmazonS3",
+                    "content-length": "193"
+                },
+                "RetryAttempts": 0
+            },
+            "OwnershipControls": {
+                "Rules": [
+                    {
+                        "ObjectOwnership": "BucketOwnerEnforced"
+                    }
+                ]
+            }
+        },
+        "get_bucket_policy": {
+            "Error": "An error occurred (NoSuchBucketPolicy) when calling the GetBucketPolicy operation: The bucket policy does not exist"
+        },
+        "get_bucket_policy_status": {
+            "Error": "An error occurred (NoSuchBucketPolicy) when calling the GetBucketPolicyStatus operation: The bucket policy does not exist"
+        },
+        "get_bucket_replication": {
+            "Error": "An error occurred (ReplicationConfigurationNotFoundError) when calling the GetBucketReplication operation: The replication configuration was not found"
+        },
+        "get_bucket_request_payment": {
+            "ResponseMetadata": {
+                "RequestId": "29YRBA2WQXBR9XZV",
+                "HostId": "SWAktjxL31ManF1kr/NQpBEi6ETu1Qfk0qbpWqRrlrSlEnJK4lKEMyCAyXnw3q3iROKWZjKuBKg=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "SWAktjxL31ManF1kr/NQpBEi6ETu1Qfk0qbpWqRrlrSlEnJK4lKEMyCAyXnw3q3iROKWZjKuBKg=",
+                    "x-amz-request-id": "29YRBA2WQXBR9XZV",
+                    "date": "Tue, 16 Apr 2024 23:12:16 GMT",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            },
+            "Payer": "BucketOwner"
+        },
+        "get_bucket_tagging": {
+            "Error": "An error occurred (NoSuchTagSet) when calling the GetBucketTagging operation: The TagSet does not exist"
+        },
+        "get_bucket_versioning": {
+            "ResponseMetadata": {
+                "RequestId": "030R15K050VN13ZH",
+                "HostId": "QNDATuV8cU/60i6YrvT7XfAEEuwS0kclobVV1m8elfmxNdTNA2xsItUTi09JNA4G5v5TwUB4j88=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "QNDATuV8cU/60i6YrvT7XfAEEuwS0kclobVV1m8elfmxNdTNA2xsItUTi09JNA4G5v5TwUB4j88=",
+                    "x-amz-request-id": "030R15K050VN13ZH",
+                    "date": "Tue, 16 Apr 2024 23:12:17 GMT",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            }
+        },
+        "get_bucket_website": {
+            "Error": "An error occurred (NoSuchWebsiteConfiguration) when calling the GetBucketWebsite operation: The specified bucket does not have a website configuration"
+        }
+    },
+    "tres-primeiro-trampo-teste-s3bucket-propriedades": {
+        "get_bucket_accelerate_configuration": {
+            "ResponseMetadata": {
+                "RequestId": "WAC02H65RMEGHCQR",
+                "HostId": "7May5hakTsTceCrYuao/1saUa+/QAL1LIUPGl/Qalo2XooU8UKer4+lTFsNscbIVkfHs4v5OiT0=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "7May5hakTsTceCrYuao/1saUa+/QAL1LIUPGl/Qalo2XooU8UKer4+lTFsNscbIVkfHs4v5OiT0=",
+                    "x-amz-request-id": "WAC02H65RMEGHCQR",
+                    "date": "Tue, 16 Apr 2024 23:12:18 GMT",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 1
+            }
+        },
+        "get_bucket_acl": {
+            "ResponseMetadata": {
+                "RequestId": "WAC0X0ED9YZER50K",
+                "HostId": "+hZnG/F8TrDh+ceFPM50O76BMI5n4OS5UQoustCcPERfVlLgTei4P7Og4mnqo+FNiuWOqmXsEtk=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "+hZnG/F8TrDh+ceFPM50O76BMI5n4OS5UQoustCcPERfVlLgTei4P7Og4mnqo+FNiuWOqmXsEtk=",
+                    "x-amz-request-id": "WAC0X0ED9YZER50K",
+                    "date": "Tue, 16 Apr 2024 23:12:18 GMT",
+                    "content-type": "application/xml",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            },
+            "Owner": {
+                "ID": "87e45754cca59bd749da22c275852623463cad6fd7be5027fae2da23768e73d4"
+            },
+            "Grants": [
+                {
+                    "Grantee": {
+                        "ID": "87e45754cca59bd749da22c275852623463cad6fd7be5027fae2da23768e73d4",
+                        "Type": "CanonicalUser"
+                    },
+                    "Permission": "FULL_CONTROL"
+                }
+            ]
+        },
+        "get_bucket_analytics_configuration": {
+            "Error": "Parameter validation failed:\nMissing required parameter in input: \"Id\""
+        },
+        "get_bucket_cors": {
+            "Error": "An error occurred (NoSuchCORSConfiguration) when calling the GetBucketCors operation: The CORS configuration does not exist"
+        },
+        "get_bucket_encryption": {
+            "ResponseMetadata": {
+                "RequestId": "82GB9B14T6YVTN5Y",
+                "HostId": "YMKDwsVU+mGUl9wF8tIwbpa6yqM8pyNH7DgTuG1F6iM5ssZqdkGI1pv5dAWKgsMg+hy7fksbvhE=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "YMKDwsVU+mGUl9wF8tIwbpa6yqM8pyNH7DgTuG1F6iM5ssZqdkGI1pv5dAWKgsMg+hy7fksbvhE=",
+                    "x-amz-request-id": "82GB9B14T6YVTN5Y",
+                    "date": "Tue, 16 Apr 2024 23:12:19 GMT",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            },
+            "ServerSideEncryptionConfiguration": {
+                "Rules": [
+                    {
+                        "ApplyServerSideEncryptionByDefault": {
+                            "SSEAlgorithm": "AES256"
+                        },
+                        "BucketKeyEnabled": false
+                    }
+                ]
+            }
+        },
+        "get_bucket_intelligent-tiering_configuration": {
+            "Error": "'S3' object has no attribute 'get_bucket_intelligent-tiering_configuration'"
+        },
+        "get_bucket_inventory_configuration": {
+            "Error": "Parameter validation failed:\nMissing required parameter in input: \"Id\""
+        },
+        "get_bucket_lifecycle_configuration": {
+            "Error": "An error occurred (NoSuchLifecycleConfiguration) when calling the GetBucketLifecycleConfiguration operation: The lifecycle configuration does not exist"
+        },
+        "get_bucket_location": {
+            "ResponseMetadata": {
+                "RequestId": "VCBQEA6SFJXKW6QZ",
+                "HostId": "sDhM8TNkkpinX0694x4oQfVaVjzxBClQRloKiEmsfCJMJS1bQxclXpT5souybt3hn6+cmoRyY0I=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "sDhM8TNkkpinX0694x4oQfVaVjzxBClQRloKiEmsfCJMJS1bQxclXpT5souybt3hn6+cmoRyY0I=",
+                    "x-amz-request-id": "VCBQEA6SFJXKW6QZ",
+                    "date": "Tue, 16 Apr 2024 23:12:20 GMT",
+                    "content-type": "application/xml",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            },
+            "LocationConstraint": "ap-south-1"
+        },
+        "get_bucket_logging": {
+            "ResponseMetadata": {
+                "RequestId": "VCBXBD9SHGRYJBNW",
+                "HostId": "sDJnuKDN2lz+gb7LNumqNw+OuvKuhmarqZx1zb8Cc2teijjBlwqz1/75z01OGSfkDWz3dMdSn9Y=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "sDJnuKDN2lz+gb7LNumqNw+OuvKuhmarqZx1zb8Cc2teijjBlwqz1/75z01OGSfkDWz3dMdSn9Y=",
+                    "x-amz-request-id": "VCBXBD9SHGRYJBNW",
+                    "date": "Tue, 16 Apr 2024 23:12:20 GMT",
+                    "content-type": "application/xml",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            }
+        },
+        "get_bucket_metrics_configuration": {
+            "Error": "Parameter validation failed:\nMissing required parameter in input: \"Id\""
+        },
+        "get_bucket_notification_configuration": {
+            "ResponseMetadata": {
+                "RequestId": "VCBZEMB3695W6NZ5",
+                "HostId": "Ly7JWj+O1oBAhzY3/oNuBCMgausNiCeZJq/0SppWOI87GIxah0zfr3MJy/bWIvW0Ps3W3sTbTSA=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "Ly7JWj+O1oBAhzY3/oNuBCMgausNiCeZJq/0SppWOI87GIxah0zfr3MJy/bWIvW0Ps3W3sTbTSA=",
+                    "x-amz-request-id": "VCBZEMB3695W6NZ5",
+                    "date": "Tue, 16 Apr 2024 23:12:20 GMT",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            }
+        },
+        "get_bucket_ownership_controls": {
+            "ResponseMetadata": {
+                "RequestId": "VCBHEH1H76ZAZDK0",
+                "HostId": "gHNIXyJ1cRC/Sfj0sv665OXl75qNMFFVdnT5ANnRFUd/GMA5XPkxSOykEjYayiw0fiZ1XbXneLo=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "gHNIXyJ1cRC/Sfj0sv665OXl75qNMFFVdnT5ANnRFUd/GMA5XPkxSOykEjYayiw0fiZ1XbXneLo=",
+                    "x-amz-request-id": "VCBHEH1H76ZAZDK0",
+                    "date": "Tue, 16 Apr 2024 23:12:20 GMT",
+                    "server": "AmazonS3",
+                    "content-length": "193"
+                },
+                "RetryAttempts": 0
+            },
+            "OwnershipControls": {
+                "Rules": [
+                    {
+                        "ObjectOwnership": "BucketOwnerEnforced"
+                    }
+                ]
+            }
+        },
+        "get_bucket_policy": {
+            "Error": "An error occurred (NoSuchBucketPolicy) when calling the GetBucketPolicy operation: The bucket policy does not exist"
+        },
+        "get_bucket_policy_status": {
+            "Error": "An error occurred (NoSuchBucketPolicy) when calling the GetBucketPolicyStatus operation: The bucket policy does not exist"
+        },
+        "get_bucket_replication": {
+            "Error": "An error occurred (ReplicationConfigurationNotFoundError) when calling the GetBucketReplication operation: The replication configuration was not found"
+        },
+        "get_bucket_request_payment": {
+            "ResponseMetadata": {
+                "RequestId": "XP2GV48M6KW801TK",
+                "HostId": "PUOrkb6im7AExFrtfnh2ZrKECkJfPDmYYUgJa/qNxLQeDiTD7NFpToHolZTh9FSI65ylNu1Rn6Y=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "PUOrkb6im7AExFrtfnh2ZrKECkJfPDmYYUgJa/qNxLQeDiTD7NFpToHolZTh9FSI65ylNu1Rn6Y=",
+                    "x-amz-request-id": "XP2GV48M6KW801TK",
+                    "date": "Tue, 16 Apr 2024 23:12:21 GMT",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            },
+            "Payer": "BucketOwner"
+        },
+        "get_bucket_tagging": {
+            "Error": "An error occurred (NoSuchTagSet) when calling the GetBucketTagging operation: The TagSet does not exist"
+        },
+        "get_bucket_versioning": {
+            "ResponseMetadata": {
+                "RequestId": "K74VP0JV5B754TDW",
+                "HostId": "fDQiL33a3XL8E2W0zFS3lYENXN/QPwrOfX89367UABBpMMXpAnHsiJyaKtALWD5q7ywqnLGsN3w=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "fDQiL33a3XL8E2W0zFS3lYENXN/QPwrOfX89367UABBpMMXpAnHsiJyaKtALWD5q7ywqnLGsN3w=",
+                    "x-amz-request-id": "K74VP0JV5B754TDW",
+                    "date": "Tue, 16 Apr 2024 23:12:22 GMT",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            }
+        },
+        "get_bucket_website": {
+            "Error": "An error occurred (NoSuchWebsiteConfiguration) when calling the GetBucketWebsite operation: The specified bucket does not have a website configuration"
+        }
+    },
+    "um-primeiro-trampo-teste-s3bucket-propriedades": {
+        "get_bucket_accelerate_configuration": {
+            "ResponseMetadata": {
+                "RequestId": "X6XE3JVK0MKN0JJC",
+                "HostId": "Owu/eFJkUZnhkURqYHBntmglRv5uh+XPU0day+TWyrUVP0p1LxspXIBlNIxtyGqtotz67ikajxg=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "Owu/eFJkUZnhkURqYHBntmglRv5uh+XPU0day+TWyrUVP0p1LxspXIBlNIxtyGqtotz67ikajxg=",
+                    "x-amz-request-id": "X6XE3JVK0MKN0JJC",
+                    "date": "Tue, 16 Apr 2024 23:12:23 GMT",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 1
+            }
+        },
+        "get_bucket_acl": {
+            "ResponseMetadata": {
+                "RequestId": "X6X9YB770SQ329R9",
+                "HostId": "SoH5ZOfQftrscorocFmqTkiEzk36wdhNcvyzuqNHj6Hnec6X68siv8vtaP4hCsxjQN6mAfUiO4s=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "SoH5ZOfQftrscorocFmqTkiEzk36wdhNcvyzuqNHj6Hnec6X68siv8vtaP4hCsxjQN6mAfUiO4s=",
+                    "x-amz-request-id": "X6X9YB770SQ329R9",
+                    "date": "Tue, 16 Apr 2024 23:12:23 GMT",
+                    "content-type": "application/xml",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            },
+            "Owner": {
+                "DisplayName": "heitor.software",
+                "ID": "87e45754cca59bd749da22c275852623463cad6fd7be5027fae2da23768e73d4"
+            },
+            "Grants": [
+                {
+                    "Grantee": {
+                        "DisplayName": "heitor.software",
+                        "ID": "87e45754cca59bd749da22c275852623463cad6fd7be5027fae2da23768e73d4",
+                        "Type": "CanonicalUser"
+                    },
+                    "Permission": "FULL_CONTROL"
+                }
+            ]
+        },
+        "get_bucket_analytics_configuration": {
+            "Error": "Parameter validation failed:\nMissing required parameter in input: \"Id\""
+        },
+        "get_bucket_cors": {
+            "Error": "An error occurred (NoSuchCORSConfiguration) when calling the GetBucketCors operation: The CORS configuration does not exist"
+        },
+        "get_bucket_encryption": {
+            "ResponseMetadata": {
+                "RequestId": "X6X5TTXF2GJ0A736",
+                "HostId": "D6cykFF5WR8q9Q0mRKgK3dx7zcmRvcptVqQ0FpY6KH13Y/Zp85ZaVIpGCMaHnTw5fvCbrgSwFxE=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "D6cykFF5WR8q9Q0mRKgK3dx7zcmRvcptVqQ0FpY6KH13Y/Zp85ZaVIpGCMaHnTw5fvCbrgSwFxE=",
+                    "x-amz-request-id": "X6X5TTXF2GJ0A736",
+                    "date": "Tue, 16 Apr 2024 23:12:23 GMT",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            },
+            "ServerSideEncryptionConfiguration": {
+                "Rules": [
+                    {
+                        "ApplyServerSideEncryptionByDefault": {
+                            "SSEAlgorithm": "AES256"
+                        },
+                        "BucketKeyEnabled": false
+                    }
+                ]
+            }
+        },
+        "get_bucket_intelligent-tiering_configuration": {
+            "Error": "'S3' object has no attribute 'get_bucket_intelligent-tiering_configuration'"
+        },
+        "get_bucket_inventory_configuration": {
+            "Error": "Parameter validation failed:\nMissing required parameter in input: \"Id\""
+        },
+        "get_bucket_lifecycle_configuration": {
+            "Error": "An error occurred (NoSuchLifecycleConfiguration) when calling the GetBucketLifecycleConfiguration operation: The lifecycle configuration does not exist"
+        },
+        "get_bucket_location": {
+            "ResponseMetadata": {
+                "RequestId": "X6XCVXMBCTZB7PC7",
+                "HostId": "Gy0BiwR6yH8BIZhoQ9XgOHzkzpMS17OfvHYnv7ecZfer4VpSGX9fE60p+aLPLVAob4EZE8cc/k4=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "Gy0BiwR6yH8BIZhoQ9XgOHzkzpMS17OfvHYnv7ecZfer4VpSGX9fE60p+aLPLVAob4EZE8cc/k4=",
+                    "x-amz-request-id": "X6XCVXMBCTZB7PC7",
+                    "date": "Tue, 16 Apr 2024 23:12:23 GMT",
+                    "content-type": "application/xml",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            },
+            "LocationConstraint": "eu-west-1"
+        },
+        "get_bucket_logging": {
+            "ResponseMetadata": {
+                "RequestId": "X6XB2PB6NBZ0QNHT",
+                "HostId": "g+7EIFcNKCQGYf/TcnhYJ1aGagsd/PcbAXySgf0B7bIgVpptaOES1+NepkaMLFDqQIPN630g768=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "g+7EIFcNKCQGYf/TcnhYJ1aGagsd/PcbAXySgf0B7bIgVpptaOES1+NepkaMLFDqQIPN630g768=",
+                    "x-amz-request-id": "X6XB2PB6NBZ0QNHT",
+                    "date": "Tue, 16 Apr 2024 23:12:23 GMT",
+                    "content-type": "application/xml",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            }
+        },
+        "get_bucket_metrics_configuration": {
+            "Error": "Parameter validation failed:\nMissing required parameter in input: \"Id\""
+        },
+        "get_bucket_notification_configuration": {
+            "ResponseMetadata": {
+                "RequestId": "X6X1PA33ZHDPGMCZ",
+                "HostId": "jBSonQkegupWEKthuTcK1zmIpqBBQW8EeXrULXV0SaSgbr1rCLgIm07a+okeaDHESQMKYIcCnQg=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "jBSonQkegupWEKthuTcK1zmIpqBBQW8EeXrULXV0SaSgbr1rCLgIm07a+okeaDHESQMKYIcCnQg=",
+                    "x-amz-request-id": "X6X1PA33ZHDPGMCZ",
+                    "date": "Tue, 16 Apr 2024 23:12:23 GMT",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            }
+        },
+        "get_bucket_ownership_controls": {
+            "ResponseMetadata": {
+                "RequestId": "6VRTCBRTX5TKT85W",
+                "HostId": "CkMJSmRTYrs+kCbWR2rNHPqLhQ6ZBiy7mZ/2+WdwmBn3ICIp9qDKWQKGBSra/fsjg1Q3HgovQos=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "CkMJSmRTYrs+kCbWR2rNHPqLhQ6ZBiy7mZ/2+WdwmBn3ICIp9qDKWQKGBSra/fsjg1Q3HgovQos=",
+                    "x-amz-request-id": "6VRTCBRTX5TKT85W",
+                    "date": "Tue, 16 Apr 2024 23:12:24 GMT",
+                    "server": "AmazonS3",
+                    "content-length": "193"
+                },
+                "RetryAttempts": 0
+            },
+            "OwnershipControls": {
+                "Rules": [
+                    {
+                        "ObjectOwnership": "BucketOwnerEnforced"
+                    }
+                ]
+            }
+        },
+        "get_bucket_policy": {
+            "Error": "An error occurred (NoSuchBucketPolicy) when calling the GetBucketPolicy operation: The bucket policy does not exist"
+        },
+        "get_bucket_policy_status": {
+            "Error": "An error occurred (NoSuchBucketPolicy) when calling the GetBucketPolicyStatus operation: The bucket policy does not exist"
+        },
+        "get_bucket_replication": {
+            "Error": "An error occurred (ReplicationConfigurationNotFoundError) when calling the GetBucketReplication operation: The replication configuration was not found"
+        },
+        "get_bucket_request_payment": {
+            "ResponseMetadata": {
+                "RequestId": "6VRV3XSKN6TD4T27",
+                "HostId": "YOb1RH6JIyHmIrdlEi6wk09znWb66Ml/33M21wrGXrniwgEZwxnWq6M0HK5dmq283iT/H17gVjU=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "YOb1RH6JIyHmIrdlEi6wk09znWb66Ml/33M21wrGXrniwgEZwxnWq6M0HK5dmq283iT/H17gVjU=",
+                    "x-amz-request-id": "6VRV3XSKN6TD4T27",
+                    "date": "Tue, 16 Apr 2024 23:12:24 GMT",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            },
+            "Payer": "BucketOwner"
+        },
+        "get_bucket_tagging": {
+            "Error": "An error occurred (NoSuchTagSet) when calling the GetBucketTagging operation: The TagSet does not exist"
+        },
+        "get_bucket_versioning": {
+            "ResponseMetadata": {
+                "RequestId": "6VRPATNFNJMX2NXZ",
+                "HostId": "RdUkV9B97gm4Ae6tmH5/LgI8aZGXqk/aDIW6OXQxeCem4ygh/vq/Gke8i7bRy9mzeKkJaUMpms8=",
+                "HTTPStatusCode": 200,
+                "HTTPHeaders": {
+                    "x-amz-id-2": "RdUkV9B97gm4Ae6tmH5/LgI8aZGXqk/aDIW6OXQxeCem4ygh/vq/Gke8i7bRy9mzeKkJaUMpms8=",
+                    "x-amz-request-id": "6VRPATNFNJMX2NXZ",
+                    "date": "Tue, 16 Apr 2024 23:12:24 GMT",
+                    "transfer-encoding": "chunked",
+                    "server": "AmazonS3"
+                },
+                "RetryAttempts": 0
+            }
+        },
+        "get_bucket_website": {
+            "Error": "An error occurred (NoSuchWebsiteConfiguration) when calling the GetBucketWebsite operation: The specified bucket does not have a website configuration"
+        }
+    }
+}
