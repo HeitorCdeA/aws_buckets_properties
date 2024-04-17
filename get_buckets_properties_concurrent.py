@@ -5,7 +5,6 @@ from concurrent.futures import ThreadPoolExecutor  # Allows performing parallel 
 import threading  # Provides a way to create and manipulate threads for concurrent execution.
 import logging  # Used for logging events that happen when the program runs.
 from botocore.exceptions import ClientError, BotoCoreError  # Exception classes for handling errors from Boto3.
-import hashlib  # For generating MD5 hashes to verify data integrity.
 
 filename = "s3_bucket_metadata.json"  # File to store the collected S3 bucket metadata.
 
@@ -74,17 +73,18 @@ def get_all_bucket_metadata(bucket_name):
     return {bucket_name: data}
 
 def verify_data(data):
-    # Check if there were any errors in the fetched data.
+    # Log errors but do not discard data
     errors = {key: val for key, val in data.items() if "Error" in val}
     if errors:
-        logging.warning(f"Errors in fetched data: {errors}")
-    return not errors
+        logging.warning(f"Errors found in fetched data, but will include in output: {errors}")
+    # Always return True to ensure no data is discarded
+    return True
 
 def stream_json_data(data, filename):
     # Write the JSON data to a file, checking for errors and updating existing data if necessary.
-    if not verify_data(data):
-        logging.error("Data verification failed, aborting file write.")
-        return False
+    if not verify_data(data): 
+        logging.error("Data verification logged errors, but proceeding with file write.")
+
     temp_filename = filename + '.tmp'
     try:
         if os.path.exists(filename):
@@ -97,7 +97,7 @@ def stream_json_data(data, filename):
             with open(temp_filename, 'w') as file:
                 json.dump(data, file, indent=4, sort_keys=True)
         os.replace(temp_filename, filename)
-        logging.info(f"Data successfully written to {filename}.")
+        logging.info(f"Data successfully written to {filename}, including entries with errors.")
         return True
     except json.JSONDecodeError as e:
         logging.error(f"JSON decode error while writing to file {filename}: {e}")
@@ -125,20 +125,6 @@ def sort_json_file(filename):
     except Exception as e:
         logging.error(f"Failed to sort JSON file {filename}: {str(e)}")
 
-def calculate_checksum(filename):
-    # Calculate and log the MD5 checksum of the file for data integrity verification.
-    hash_md5 = hashlib.md5()
-    try:
-        with open(filename, "rb") as f:
-            for chunk in iter(lambda: f.read(4096), b""):
-                hash_md5.update(chunk)
-        checksum = hash_md5.hexdigest()
-        logging.info(f"Checksum for {filename}: {checksum}")
-        return checksum
-    except Exception as e:
-        logging.error(f"Failed to calculate checksum for {filename}: {str(e)}")
-        return None
-
 
 def main():
     # Main function to orchestrate the fetching, processing, and logging of S3 bucket metadata.
@@ -153,7 +139,6 @@ def main():
             logging.error(f"Failed to process data for bucket {bucket_name}.")
         calculate_percentage(index, total_buckets)
     sort_json_file(filename)
-    calculate_checksum(filename)
 
 if __name__ == "__main__":
     main()
