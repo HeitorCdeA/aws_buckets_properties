@@ -35,7 +35,7 @@
                     "content-type": "application/xml",
                     "date": "Wed, 17 Apr 2024 18:32:53 GMT",
                     "server": "AmazonS3",
-                    "transfer-encoding": "chunked",
+                    "transfer-encoding": "",
                     "x-amz-id-2": "KBXqzTuu7ba4EMvvP2m+iUDBDwE2N8d9nnQYLjGHrdFghwv9wVZlGUrGsMta1hIHinenayBmB30=",
                     "x-amz-request-id": "59NNGEQR91WM772H"
                 },
@@ -1127,7 +1127,7 @@
                     "x-amz-request-id": "XD2A8KZHWZMNAY2Q"
                 },
                 "HTTPStatusCode": 200,
-                "HostId": "yFjixAFcs5/TmILKVsTbEQaueALUCm8yuV1qxYZftsEzxTC4V7D+1jP3OljFBUqgyq6LKa5kL00=",
+                "HostId": "yFjixAFcs5/+1jP3OljFBUqgyq6LKa5kL00=",
                 "RequestId": "XD2A8KZHWZMNAY2Q",
                 "RetryAttempts": 0
             }
@@ -1185,7 +1185,7 @@
                 "HTTPStatusCode": 200,
                 "HostId": "3/qLG06O5iSH+/xPXd8Az3gT/WdFBQShaOTqiTRjiz1mc8UFYr1DLIrICUjAqENl7FMG7nZzVM0=",
                 "RequestId": "RH1FFD3F538QD5QA",
-                "RetryAttempts": 1
+                "RetryAttempts": 10
             }
         },
         "get_bucket_policy": {
