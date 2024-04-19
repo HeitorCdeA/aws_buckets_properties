@@ -43,43 +43,37 @@ def compare_json(data1, data2, path=""):
     return differences if differences else None
 
 def main():
-    # Load JSON data from files
-    with open('s3_bucket_metadata.json', 'r') as file:
-        data1 = json.load(file)
+    data1, data2 = {}, {}
+    try:
+        with open('diff_comparison/s3_bucket_metadata.json', 'r') as file:
+            data1 = json.load(file)
+        with open('diff_comparison/s3_bucket_metadata_2.json', 'r') as file:
+            data2 = json.load(file)
+    except Exception as e:
+        print(f"Error loading JSON files: {e}")
+        return
 
-    with open('s3_bucket_metadata_2.json', 'r') as file:
-        data2 = json.load(file)
+    # Initialize the output dictionary for buckets only
+    output = {"Buckets": {}}
 
-    # Check for matching bucket names
-    buckets1 = set(data1.keys())
-    buckets2 = set(data2.keys())
-    common_buckets = buckets1.intersection(buckets2)
-    missing_from_1 = buckets2 - buckets1
-    missing_from_2 = buckets1 - buckets2
+    # Process each key in the union of both data sets' keys
+    for key in set(data1.keys()).union(data2.keys()):
+        bucket_details = {}
+        bucket_diff = compare_json(data1.get(key, {}), data2.get(key, {}), key)
+        
+        # Set the status based on whether there are differences
+        bucket_details["Status"] = "OK" if not bucket_diff else "Differences"
+        
+        # Set the operations; if no differences, set to an empty dictionary
+        bucket_details["Operations"] = bucket_diff if bucket_diff else {}
 
-    if missing_from_1 or missing_from_2:
-        print("Mismatch in bucket names found:")
-        print("Buckets only in first file:", missing_from_2)
-        print("Buckets only in second file:", missing_from_1)
+        # Assign the detailed bucket data to the main output under Buckets
+        output["Buckets"][key] = bucket_details
 
-    # Proceed with content comparison for common buckets
-    diff = {bucket: compare_json(data1[bucket], data2[bucket], bucket) for bucket in common_buckets}
-
-    output = {}
-    for bucket, changes in diff.items():
-        if changes:
-            output[bucket] = changes
-        else:
-            output[bucket] = "OK"
-
-    # Handle buckets without matches
-    for bucket in missing_from_2:
-        output[bucket] = "Missing in updated JSON"
-    for bucket in missing_from_1:
-        output[bucket] = "Missing in original JSON"
-
-    with open('differences_output_9.json', 'w') as file:
-        json.dump(output, file, indent=4, sort_keys=True)
+    # Write the refined output to a file
+    with open('differences_output.json', 'w') as file:
+        json.dump(output, file, indent=4, sort_keys=True)  # Maintain insertion order
 
 if __name__ == "__main__":
     main()
+
