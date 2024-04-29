@@ -1,0 +1,289 @@
+{
+    "Buckets": {
+        "767397912761-unique-bucket-0": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-1": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-10": {
+            "Operations": {
+                "767397912761-unique-bucket-10/get_bucket_acl/Grants[0]/Grantee/DisplayName": "Original: heitor.software, Updated: heitor.claro"
+            },
+            "Status": "Differences"
+        },
+        "767397912761-unique-bucket-11": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-12": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-13": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-14": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-15": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-16": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-17": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-18": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-19": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-2": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-20": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-21": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-22": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-23": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-24": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-25": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-26": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-27": {
+            "Operations": {
+                "767397912761-unique-bucket-27/get_bucket_metrics_configuration": "Removed from original JSON: {'Error': 'Parameter validation failed:\\nMissing required parameter in input: \"Id\"'}",
+                "767397912761-unique-bucket-27/get_bucket_notification_configuration": "Removed from original JSON: {}",
+                "767397912761-unique-bucket-27/get_bucket_ownership_controls": "Removed from original JSON: {'OwnershipControls': {'Rules': [{'ObjectOwnership': 'BucketOwnerEnforced'}]}}",
+                "767397912761-unique-bucket-27/get_bucket_policy": "Removed from original JSON: {'Error': 'An error occurred (NoSuchBucketPolicy) when calling the GetBucketPolicy operation: The bucket policy does not exist'}",
+                "767397912761-unique-bucket-27/get_bucket_policy_status": "Removed from original JSON: {'Error': 'An error occurred (NoSuchBucketPolicy) when calling the GetBucketPolicyStatus operation: The bucket policy does not exist'}",
+                "767397912761-unique-bucket-27/get_bucket_replication": "Removed from original JSON: {'Error': 'An error occurred (ReplicationConfigurationNotFoundError) when calling the GetBucketReplication operation: The replication configuration was not found'}",
+                "767397912761-unique-bucket-27/get_bucket_request_payment": "Removed from original JSON: {'Payer': 'BucketOwner'}",
+                "767397912761-unique-bucket-27/get_bucket_tagging": "Removed from original JSON: {'Error': 'An error occurred (NoSuchTagSet) when calling the GetBucketTagging operation: The TagSet does not exist'}",
+                "767397912761-unique-bucket-27/get_bucket_versioning": "Removed from original JSON: {}",
+                "767397912761-unique-bucket-27/get_bucket_website": "Removed from original JSON: {'Error': 'An error occurred (NoSuchWebsiteConfiguration) when calling the GetBucketWebsite operation: The specified bucket does not have a website configuration'}"
+            },
+            "Status": "Differences"
+        },
+        "767397912761-unique-bucket-28": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-29": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-3": {
+            "Operations": {
+                "767397912761-unique-bucket-3/get_bucket_logging": "Removed from original JSON: {}"
+            },
+            "Status": "Differences"
+        },
+        "767397912761-unique-bucket-30": {
+            "Operations": {
+                "767397912761-unique-bucket-30/get_bucket_accelerate_configuration": "Removed from original JSON: {}"
+            },
+            "Status": "Differences"
+        },
+        "767397912761-unique-bucket-31": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-32": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-33": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-34": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-35": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-36": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-37": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-38": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-39": {
+            "Operations": {
+                "767397912761-unique-bucket-39/get_bucket_ownership_controls/OwnershipControls": "Removed from original JSON: {'Rules': [{'ObjectOwnership': 'BucketOwnerEnforced'}]}"
+            },
+            "Status": "Differences"
+        },
+        "767397912761-unique-bucket-4": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-40": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-41": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-42": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-43": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-44": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-45": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-46": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-47": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-48": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-49": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-5": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-6": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-7": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-8": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "767397912761-unique-bucket-9": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "dois-primeiro-trampo-teste-s3bucket-propriedades": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "get_bucket_notification_configuration": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "get_bucket_ownership_controls": {
+            "Operations": {
+                "get_bucket_ownership_controls/OwnershipControls": "Added in updated JSON: {'Rules': [{'ObjectOwnership': 'BucketOwnerEnforced'}]}"
+            },
+            "Status": "Differences"
+        },
+        "get_bucket_policy": {
+            "Operations": {
+                "get_bucket_policy/Error": "Added in updated JSON: An error occurred (NoSuchBucketPolicy) when calling the GetBucketPolicy operation: The bucket policy does not exist"
+            },
+            "Status": "Differences"
+        },
+        "get_bucket_policy_status": {
+            "Operations": {
+                "get_bucket_policy_status/Error": "Added in updated JSON: An error occurred (NoSuchBucketPolicy) when calling the GetBucketPolicyStatus operation: The bucket policy does not exist"
+            },
+            "Status": "Differences"
+        },
+        "get_bucket_replication": {
+            "Operations": {
+                "get_bucket_replication/Error": "Added in updated JSON: An error occurred (ReplicationConfigurationNotFoundError) when calling the GetBucketReplication operation: The replication configuration was not found"
+            },
+            "Status": "Differences"
+        },
+        "get_bucket_request_payment": {
+            "Operations": {
+                "get_bucket_request_payment/Payer": "Added in updated JSON: BucketOwner"
+            },
+            "Status": "Differences"
+        },
+        "get_bucket_tagging": {
+            "Operations": {
+                "get_bucket_tagging/Error": "Added in updated JSON: An error occurred (NoSuchTagSet) when calling the GetBucketTagging operation: The TagSet does not exist"
+            },
+            "Status": "Differences"
+        },
+        "get_bucket_versioning": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "get_bucket_website": {
+            "Operations": {
+                "get_bucket_website/Error": "Added in updated JSON: An error occurred (NoSuchWebsiteConfiguration) when calling the GetBucketWebsite operation: The specified bucket does not have a website configuration"
+            },
+            "Status": "Differences"
+        },
+        "quatro-primeiro-trampo-teste-s3bucket-propriedades": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "tres-primeiro-trampo-teste-s3bucket-propriedades": {
+            "Operations": {},
+            "Status": "OK"
+        },
+        "um-primeiro-trampo-teste-s3bucket-propriedades": {
+            "Operations": {},
+            "Status": "OK"
+        }
+    }
+}
